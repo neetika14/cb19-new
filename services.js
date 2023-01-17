@@ -1,3 +1,10 @@
+/* 
+Increase height of viewable area to see more trees.
+Trees chopped for slim viewing.
+For best viewing results, full view and scale the browser.
+*/
+
+/* camera timer */
 var minutesLabel = document.getElementById("minutes");
         var secondsLabel = document.getElementById("seconds");
         var totalSeconds = 0;
@@ -22,3 +29,5 @@ var minutesLabel = document.getElementById("minutes");
                 return valString;
             }
         }
+
+     
