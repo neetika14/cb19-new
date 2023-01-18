@@ -34,7 +34,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd9e58', end
 
 .login-box {
   position: relative;
-  top: 50%;
+  top: 30%;
   left: 50%;
   width: 400px;
   padding: 40px;
@@ -82,7 +82,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd9e58', end
 .login-box .user-box input:valid ~ label {
   top: -20px;
   left: 0;
-  color: #03e9f4;
+  color: white;
   font-size: 12px;
 }
 
@@ -90,7 +90,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd9e58', end
   position: relative;
   display: inline-block;
   padding: 10px 20px;
-  color: #03e9f4;
+  color: white;
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
@@ -101,13 +101,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd9e58', end
 }
 
 .login-box a:hover {
-  background: #03e9f4;
+  background: #dc6022;
   color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 5px #03e9f4,
-              0 0 25px #03e9f4,
-              0 0 50px #03e9f4,
-              0 0 100px #03e9f4;
+  box-shadow: 0 0 5px #f47303,
+              0 0 25px #f47303,
+              0 0 50px #f47303,
+              0 0 100px #f47303;
 }
 
 .login-box a span {
@@ -120,7 +120,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd9e58', end
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #03e9f4);
+  background: linear-gradient(90deg, transparent, #f47303);
   animation: btn-anim1 1s linear infinite;
 }
 
@@ -138,7 +138,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd9e58', end
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(180deg, transparent, #03e9f4);
+  background: linear-gradient(180deg, transparent, #f47303);
   animation: btn-anim2 1s linear infinite;
   animation-delay: .25s
 }
@@ -157,7 +157,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd9e58', end
   right: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg, transparent, #03e9f4);
+  background: linear-gradient(270deg, transparent, #f47303);
   animation: btn-anim3 1s linear infinite;
   animation-delay: .5s
 }
@@ -176,7 +176,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd9e58', end
   left: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(360deg, transparent, #03e9f4);
+  background: linear-gradient(360deg, transparent, #f47303);
   animation: btn-anim4 1s linear infinite;
   animation-delay: .75s
 }
@@ -211,7 +211,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd9e58', end
   
   }}
 #ufo{
-  bottom: 400px;
+  bottom: 250px;
   width: 325px;
   height: 41px;
   margin: 0 auto;
@@ -443,7 +443,7 @@ border-top: 2px solid rgba(255,255,255,0.5);
 /*-- trees mid --*/
 ul.trees2{
   position: relative;
-  bottom: -240px;
+  bottom: -400px;
   margin: 0px;
   padding: 0px;
   width: 100%;
@@ -456,7 +456,7 @@ display: block;
 height: 0px;
 border-left: 100px solid transparent;
 border-right: 100px solid transparent;
-border-bottom: 400px solid #246127;
+border-bottom: 400px solid #d74423;
 border-top: 0px solid transparent;
 position:absolute;
 bottom:-50px;
@@ -483,12 +483,12 @@ ul.trees2 li:nth-child(16) {right: 340px;bottom: -210px;}
 /*-- trees front --*/
 ul.trees1{
   position: relative;
-  bottom: -240px;
+  bottom: -520px;
   margin: 0px;
   padding: 0px;
   width: 100%;
   text-align:center;
-  -webkit-filter:blur(8px); 
+  -webkit-filter:blur(2px); 
 }
 ul.trees1 li{
   width: 0px;
@@ -496,7 +496,7 @@ display: block;
 height: 0px;
 border-left: 100px solid transparent;
 border-right: 100px solid transparent;
-border-bottom: 400px solid #25921d;
+border-bottom: 400px solid #BF2E0F;
 border-top: 0px solid transparent;
 position:absolute;
 bottom:-50px;
@@ -529,7 +529,7 @@ ul.trees1 li:nth-child(16) {right: 340px;bottom: -210px;}
 /*-- trees back --*/
 ul.trees3 {
 position: relative;
-bottom: -240px;
+bottom: -530px;
 margin: 0px;
 padding: 0px;
 width: 100%;
@@ -543,7 +543,7 @@ display: block;
 height: 0px;
 border-left: 100px solid transparent;
 border-right: 100px solid transparent;
-border-bottom: 400px solid #0F3806;
+border-bottom: 400px solid  #f45c24;
 border-top: 0px solid transparent;
 position: absolute;
 bottom: -50px;
@@ -585,7 +585,7 @@ ul.trees3 li:nth-child(16) {right: 730px;bottom: -150px;}
 }
 .battery{
 position: absolute;
-top: -620px;
+top: -422px;
 left: 20px;
 width: 80px;
 height: 34px;
@@ -619,7 +619,7 @@ animation-delay: 2s;
 .rec{
   position:absolute;
   right: 30px;
-  top: -620px;
+  top: -422px;
   color:#fff;
   font-size:30px;
 }
@@ -634,7 +634,7 @@ animation-delay: 2s;
 }
 .meta{
   position:relative;
-  bottom:-20px;
+  bottom:-220px;
   left:1325px;
   color:#fff;
   font-size:20px;
@@ -678,7 +678,7 @@ animation-delay: 2s;
 }
 .timer{
   position:relative;
-  bottom: 27px;
+  bottom: -180px;
   left:30px;
   color:#fff;
   font-size:20px;
@@ -688,20 +688,20 @@ animation-delay: 2s;
 
 #title {
   position: relative;
-  top: 25%;
+  top: 70%;
   left: 0;
   right: 0;
   color: #FFF;
   text-align: center;
-  font-family: "lato", sans-serif;
+  font-family: "lato", Algerian;
   font-weight: 300;
-  font-size: 40px;
-  letter-spacing: 3px;
+  font-size: 42px;
+  letter-spacing: 2px;
   margin-top: -60px;
   padding-left: 10px;
 }
 #title span {
-  background: -webkit-linear-gradient(white, #c1c7cd);
+  background: white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

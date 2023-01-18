@@ -323,7 +323,7 @@ ul.trees1{
   padding: 0px;
   width: 100%;
   text-align:center;
-  -webkit-filter:blur(8px); 
+  -webkit-filter:blur(2px); 
 }
 ul.trees1 li{
   width: 0px;

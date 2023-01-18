@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Sumana:wght@700&display=swap");
 body {
   align-items: center;
-  background-color: #f2f2f2;
+  background: white;
   display: flex;
   font-family: "Merriweather", serif;
   flex-wrap: wrap;
@@ -169,7 +169,7 @@ h1 {
 	width: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(0, 0, 0, 0.5);
+	/* background: rgba(0, 0, 0, 0.5); */
 	position: absolute;
 }
 
